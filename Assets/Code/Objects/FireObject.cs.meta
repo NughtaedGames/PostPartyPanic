@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dc36fbfb3ae8a6a4e86a5e7a6c27e6f9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - fire: {instanceID: 0}
+  - smoke: {instanceID: 0}
+  - sparks: {instanceID: 0}
+  - globalTime: {fileID: 11400000, guid: ec61f6ba9c6afa64ab384fa685bb3897, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

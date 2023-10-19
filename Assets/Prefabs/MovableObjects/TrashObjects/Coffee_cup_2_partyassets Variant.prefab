@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7376287581414427127
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7aa50c8249a7ec1449ccdd6fde6e8d43, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7aa50c8249a7ec1449ccdd6fde6e8d43, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -70.78761
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7aa50c8249a7ec1449ccdd6fde6e8d43, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.106310844
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7aa50c8249a7ec1449ccdd6fde6e8d43, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.787149
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7aa50c8249a7ec1449ccdd6fde6e8d43, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7aa50c8249a7ec1449ccdd6fde6e8d43, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7aa50c8249a7ec1449ccdd6fde6e8d43, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7aa50c8249a7ec1449ccdd6fde6e8d43, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7aa50c8249a7ec1449ccdd6fde6e8d43, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7aa50c8249a7ec1449ccdd6fde6e8d43, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7aa50c8249a7ec1449ccdd6fde6e8d43, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7aa50c8249a7ec1449ccdd6fde6e8d43, type: 3}
+      propertyPath: m_Name
+      value: Coffee_cup_2_partyassets
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7aa50c8249a7ec1449ccdd6fde6e8d43, type: 3}
+--- !u!1 &7682225795872863398 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7aa50c8249a7ec1449ccdd6fde6e8d43, type: 3}
+  m_PrefabInstance: {fileID: 7376287581414427127}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2113329756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7682225795872863398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afc750d34be1dd54f967c4af424990d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animationTimePosition: 0
+  _startPosition: {x: 0, y: 0, z: 0}
+  animationStarted: 0
+--- !u!65 &2113329755
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7682225795872863398}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.111112945, y: 0.14709872, z: 0.11111279}
+  m_Center: {x: -0.004332509, y: 0.073703825, z: 0.000032946467}
+--- !u!54 &2113329754
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7682225795872863398}
+  serializedVersion: 2
+  m_Mass: 3
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

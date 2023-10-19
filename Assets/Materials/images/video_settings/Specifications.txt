@@ -1,0 +1,14 @@
+Resolution:
+2,048 x 1,080
+1920 x 1080
+1420x960
+1280 x 720
+
+Graphics:
+High
+Medium
+Low
+
+Size:
+Fullscreen
+Window

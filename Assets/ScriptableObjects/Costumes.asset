@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2fe9af642493a54fbe6e08fd8f5f314, type: 3}
+  m_Name: Costumes
+  m_EditorClassIdentifier: 
+  costumeList:
+    costumeList:
+    - name: Avocado
+      imageName: {fileID: 2800000, guid: 12e5948969260e74183f6439d96d59cd, type: 3}
+      modelNames: avocado
+    - name: Egg
+      imageName: {fileID: 2800000, guid: 814b4d1be5ac18e4784a93700f84c6bf, type: 3}
+      modelNames: egg
+    - name: Frog
+      imageName: {fileID: 2800000, guid: 05a4fb76a8e3bb749814ed35c58a2a61, type: 3}
+      modelNames: frog
+    - name: mask
+      imageName: {fileID: 2800000, guid: 4d3913a829eb9724d941d124075ba426, type: 3}
+      modelNames: mask
+    - name: Santa
+      imageName: {fileID: 2800000, guid: 6e4109ea8a2af8746820b364a7309672, type: 3}
+      modelNames: santa
+    - name: Mushroom
+      imageName: {fileID: 2800000, guid: 291a938c007524648b6009a12e61dc00, type: 3}
+      modelNames: shroom
+    - name: Sprout
+      imageName: {fileID: 2800000, guid: 4961ccd17b8d1a449bb1edbcfb760abd, type: 3}
+      modelNames: sprout
+    - name: Unicorn
+      imageName: {fileID: 2800000, guid: 35ddf080eb652b440b06e8f6135d069e, type: 3}
+      modelNames: unicorn

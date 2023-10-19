@@ -1,0 +1,133 @@
+Event	ID	Name			Wwise Object Path	Notes
+	160038168	Splash			\Default Work Unit\In-Game\Splash	
+	168097872	Broom			\Default Work Unit\In-Game\Broom	
+	342225720	UFO_Hovering			\Default Work Unit\In-Game\Ufo Hovering\UFO_Hovering	
+	372965773	Stop_UFO_Hovering			\Default Work Unit\In-Game\Ufo Hovering\Stop_UFO_Hovering	
+	558346695	Vacuum_Cleaner			\Default Work Unit\In-Game\Vacuum Cleaner\Vacuum_Cleaner	
+	609746822	Stop_Fire_Extinguisher			\Default Work Unit\In-Game\Fire Extinguisher\Stop_Fire_Extinguisher	
+	679636833	MenuMusic			\Default Work Unit\Menu\Music\MenuMusic	
+	914007563	Punsh			\Default Work Unit\In-Game\Punsh	
+	988161635	Stop_GameMusic			\Default Work Unit\In-Game\Music\Stop_GameMusic	
+	1080872017	Tok			\Default Work Unit\In-Game\Tok	
+	1470160343	Unclog			\Default Work Unit\In-Game\Unclog	
+	1505888634	Countdown			\Default Work Unit\In-Game\Countdown	
+	1533192012	GameMusic			\Default Work Unit\In-Game\Music\GameMusic	
+	1565052233	Resume_Game			\Default Work Unit\In-Game\Pause & Resume\Resume_Game	
+	1575098635	Fire_Alarm			\Default Work Unit\In-Game\Fire Alarm\Fire_Alarm	
+	1584507803	Click			\Default Work Unit\Menu\Button\Click	
+	1701177942	Button_Hover			\Default Work Unit\Menu\Button\Button_Hover	
+	1758959820	Collect_Star			\Default Work Unit\In-Game\Collect_Star	
+	1822024683	Player_Drag			\Default Work Unit\In-Game\Drag\Player_Drag	
+	1894362767	Foot_Player			\Default Work Unit\In-Game\Foot_Player	
+	1973898857	StopMenuMusic			\Default Work Unit\Menu\Music\StopMenuMusic	
+	2417181057	Scribble			\Default Work Unit\Menu\Scribble	
+	2488400822	Dog_Bark			\Default Work Unit\In-Game\Dog_Bark	
+	2526624148	Stop_Fire			\Default Work Unit\In-Game\Fire\Stop_Fire	
+	2678880713	Fire			\Default Work Unit\In-Game\Fire\Fire	
+	2685132018	Stop_Vacuum_Cleaner			\Default Work Unit\In-Game\Vacuum Cleaner\Stop_Vacuum_Cleaner	
+	2735935537	Pause_Music			\Default Work Unit\In-Game\Pause & Resume\Pause_Music	
+	3148412736	Stop_Player_Drag			\Default Work Unit\In-Game\Drag\Stop_Player_Drag	
+	3384067508	Closet_Door			\Default Work Unit\In-Game\Closet_Door	
+	3462152561	Fire_Extinguisher			\Default Work Unit\In-Game\Fire Extinguisher\Fire_Extinguisher	
+	3556152674	Wiggle			\Default Work Unit\In-Game\Wiggle	
+	3848275657	Trash			\Default Work Unit\In-Game\Trash	
+	3987862127	Slurp			\Default Work Unit\In-Game\Slurp	
+	4052948690	Stop_Fire_Alarm			\Default Work Unit\In-Game\Fire Alarm\Stop_Fire_Alarm	
+	4072963231	Glass_Break			\Default Work Unit\In-Game\Glass_Break	
+	4088074013	Take_Photo			\Default Work Unit\In-Game\Take_Photo	
+	4180377010	Mop_Puddle			\Default Work Unit\In-Game\Mop_Puddle	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2096958805	Held_Object_Type			\Default Work Unit\Held_Object_Type	
+	3865314626	Material			\Default Work Unit\Material	
+
+Switch	ID	Name	Switch Group			Notes
+	704816406	Heavy_1	Held_Object_Type			
+	2048817515	Table	Held_Object_Type			
+	1088209313	Floor	Material			
+	2412606308	Carpet	Material			
+	4248645337	Grass	Material			
+
+Effect plug-ins	ID	Name	Type				Notes
+	956025848	Hall_Large_Bright (Custom)	Wwise RoomVerb			
+	1520064353	Hall_Medium_Bright	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	5103491	destruction-glass-smash-02	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\destruction-glass-smash-02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Glass Breaking\destruction-glass-smash-02		361212
+	12400012	Crunch_Rubish_Thick_Plastic_1	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\Crunch_Rubish_Thick_Plastic_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Crush Trash\Crunch_Rubish_Thick_Plastic_1		129616
+	78873818	Stop Fire Extinguisher	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\fire-extinguisher-powder-Sustain-03_6A532BCE.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Fire Extinguisher\Stop Fire Extinguisher		191624
+	89837021	animal-dog-bark-normal-single-06	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\animal-dog-bark-normal-single-06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Dog Barking\animal-dog-bark-normal-single-06		231036
+	129969736	Unclog	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\Unclog_with_dynamedion_splashes_95B01656.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Unclog		768064
+	135084144	Crunch_Rubish_Thin_Plastic_1	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\Crunch_Rubish_Thin_Plastic_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Crush Trash\Crunch_Rubish_Thin_Plastic_1		184944
+	151931572	drag_table_2	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\drag_table_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Drag_Furniture_test\Drag_Table_test\drag_table_2		594452
+	154543719	Fire Extinguisher	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\fire-extinguisher-powder-Start-01_94FB70D0.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Fire Extinguisher\Fire Extinguisher		1493692
+	159381326	brooming_3	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\brooming_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Brooming\brooming_3		92020
+	188602473	elements-water-splash-small-01	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\elements-water-splash-small-01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Splash\elements-water-splash-small-01		504636
+	207560612	Ufo Hovering	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\abstract-synthetic-drone-alien-factory-loop-01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Ufo Hovering		17206336
+	210350483	destruction-glass-smash-05	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\destruction-glass-smash-05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Glass Breaking\destruction-glass-smash-05		365244
+	211650428	destruction-glass-smash-01	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\destruction-glass-smash-01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Glass Breaking\destruction-glass-smash-01		378496
+	213756166	walk_on_grass_3	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\walk_on_grass_3_DA03974D.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Footsteps\step_grass\walk_on_grass_3		33580
+	229968556	walk_on_carpet_2	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\walk_on_carpet_2_62D6EABC.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Footsteps\step_carpet\walk_on_carpet_2		59260
+	233028051	brooming_2	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\brooming_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Brooming\brooming_2		116244
+	253196360	Extinguish Fire	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\object-fire-campfire-large-extinguish-01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Fire\Extinguish Fire		1320828
+	272671105	walk_on_carpet_3	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\walk_on_carpet_3_9401167F.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Footsteps\step_carpet\walk_on_carpet_3		56144
+	285497544	walk_on_floor_3	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\walk_on_floor_3_FE08EFF5.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Footsteps\step_floor\walk_on_floor_3		38812
+	349235836	elements-water-splash-16	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\elements-water-splash-16_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mop Puddle\elements-water-splash-16		350844
+	382192752	animal-dog-bark-normal-single-05	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\animal-dog-bark-normal-single-05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Dog Barking\animal-dog-bark-normal-single-05		237948
+	392270304	elements-water-splash-14	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\elements-water-splash-14_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mop Puddle\elements-water-splash-14		428032
+	393096366	walk_on_grass_2	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\walk_on_grass_2_ED46C9C1.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Footsteps\step_grass\walk_on_grass_2		31736
+	400212307	drag_wooden_fragment_5	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\drag_wooden_fragment_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Drag_Furniture_test\Drag_Heavy_1_test\drag_wooden_fragment_5		278952
+	419418610	click_soft_3	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\click_soft_3_561A8E55.wem		\Actor-Mixer Hierarchy\Default Work Unit\Click\click_soft_3		50192
+	440195846	drag_table_3	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\drag_table_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Drag_Furniture_test\Drag_Table_test\drag_table_3		591904
+	454015813	ui-classic-camera-06	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\ui-classic-camera-06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Take Photo\ui-classic-camera-06		193600
+	459281821	ui-classic-feedback-positive-03	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\ui-classic-feedback-positive-03_E7BF0893.wem		\Actor-Mixer Hierarchy\Default Work Unit\Collect Star\ui-classic-feedback-positive-03		228920
+	463662465	Wet_Wiggle_3	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\Wet_Wiggle_3_4E8ADFC9.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Wet Wiggly\Wet_Wiggle_3		463580
+	473985854	ui-classic-camera-05	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\ui-classic-camera-05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Take Photo\ui-classic-camera-05		206848
+	502971768	Crunch_Rubish_Thick_Plastic_4	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\Crunch_Rubish_Thick_Plastic_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Crush Trash\Crunch_Rubish_Thick_Plastic_4		166424
+	504820483	walk_on_floor_1	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\walk_on_floor_1_115901E3.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Footsteps\step_floor\walk_on_floor_1		43492
+	511462851	elements-water-splash-small-03	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\elements-water-splash-small-03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Splash\elements-water-splash-small-03		447616
+	572987280	Crunch_Rubish_Thick_Plastic_2	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\Crunch_Rubish_Thick_Plastic_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Crush Trash\Crunch_Rubish_Thick_Plastic_2		145684
+	580824712	walk_on_grass_1	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\walk_on_grass_1_73D564A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Footsteps\step_grass\walk_on_grass_1		28816
+	584359995	animal-dog-bark-normal-single-04	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\animal-dog-bark-normal-single-04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Dog Barking\animal-dog-bark-normal-single-04		255232
+	588406768	swish_less_energetic	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\Swishes\swish_less_energetic_E476F5F8.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Swishes\swish_less_energetic		176716
+	589638413	drag_table_1	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\drag_table_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Drag_Furniture_test\Drag_Table_test\drag_table_1		439624
+	591565670	drag_wooden_fragment_3	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\drag_wooden_fragment_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Drag_Furniture_test\Drag_Heavy_1_test\drag_wooden_fragment_3		384064
+	611409690	click_soft_1	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\click_soft_1_547B986E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Click\click_soft_1		70660
+	613006070	walk_on_carpet_1	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\walk_on_carpet_1_7E2F76C2.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Footsteps\step_carpet\walk_on_carpet_1		39316
+	613142307	walk_on_floor_2	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\walk_on_floor_2_B19ED90E.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Footsteps\step_floor\walk_on_floor_2		36404
+	631337213	brooming_4	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\brooming_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Brooming\brooming_4		115264
+	642265953	animal-dog-bark-normal-single-02	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\animal-dog-bark-normal-single-02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Dog Barking\animal-dog-bark-normal-single-02		241980
+	645100905	brooming_7	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\brooming_7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Brooming\brooming_7		74648
+	646157458	Crunch_Rubish_Thin_Plastic_3	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\Crunch_Rubish_Thin_Plastic_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Crush Trash\Crunch_Rubish_Thin_Plastic_3		136332
+	654490406	Crunch_Rubish_Thick_Plastic_3	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\Crunch_Rubish_Thick_Plastic_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Crush Trash\Crunch_Rubish_Thick_Plastic_3		127524
+	677907540	brooming_6	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\brooming_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Brooming\brooming_6		108080
+	712234251	Countdown	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\ui-notification-signal-08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Countdown		245436
+	715039286	swish_energetic	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\Swishes\swish_energetic_D076BE60.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Swishes\swish_energetic		126468
+	720305034	Crunch_Rubish_Thin_Plastic_2	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\Crunch_Rubish_Thin_Plastic_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Crush Trash\Crunch_Rubish_Thin_Plastic_2		145204
+	742948325	Slurp_1	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\Slurp_1_03BBDAD9.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Slurp\Slurp_1		437696
+	761544729	brooming_5	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\brooming_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Brooming\brooming_5		111024
+	780519984	click_soft_2	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\click_soft_2_D380B249.wem		\Actor-Mixer Hierarchy\Default Work Unit\Click\click_soft_2		67540
+	783577525	Wet_Wiggle_2	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\Wet_Wiggle_2_E50ED2E9.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Wet Wiggly\Wet_Wiggle_2		337084
+	834552933	swish_very_energetic	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\Swishes\swish_very_energetic_8A7EE2B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Swishes\swish_very_energetic		111660
+	847788363	walk_on_floor_4	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\walk_on_floor_4_55F10A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Footsteps\step_floor\walk_on_floor_4		38956
+	864862173	brooming_1	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\brooming_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Brooming\brooming_1		124956
+	867360010	elements-water-splash-deep-02	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\elements-water-splash-deep-02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Splash\elements-water-splash-deep-02		370428
+	871242418	tok	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\Tok\tok_49EBA6F2.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Tok\tok		63832
+	871591121	drag_wooden_fragment_6	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\drag_wooden_fragment_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Drag_Furniture_test\Drag_Heavy_1_test\drag_wooden_fragment_6		305776
+	891866665	Slurp_3	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\Slurp_3_ACFEA3F5.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Slurp\Slurp_3		285084
+	904390829	ui-classic-feedback-positive-01	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\ui-classic-feedback-positive-01_2E43D7E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Collect Star\ui-classic-feedback-positive-01		222152
+	932711720	Fire Alarm	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\sci-fi-alarm-fast-spaceship-siren-sequence-01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Fire Alarm\Fire Alarm		1684860
+	934714524	Vacuum Cleaner Shutdown	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\Staubsauger_lower_partial_Operator_B575333F.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Vacuum Cleaner Shutdown		565060
+	935406071	walk_on_grass_4	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\walk_on_grass_4_2510F06F.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Footsteps\step_grass\walk_on_grass_4		29184
+	935957131	Fire	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\object-fire-campfire-large-loop-01_0D1FF5D0.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Fire\Fire		11548352
+	947367467	drag_table_4	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\drag_table_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Drag_Furniture_test\Drag_Table_test\drag_table_4		640060
+	950411297	drag_wooden_fragment_2	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\drag_wooden_fragment_2_AF213E36.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Drag_Furniture_test\Drag_Heavy_1_test\drag_wooden_fragment_2		289344
+	985620516	SoundTrack2	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\Techno1_10_02_31594B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundTrack2		22479116
+	989506216	SoundTrack1	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\FastSwing_10_02_CE6C06D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundTrack1		59241496
+	1002581526	Crunch_Rubish_Thin_Plastic_4	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\Crunch_Rubish_Thin_Plastic_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Crush Trash\Crunch_Rubish_Thin_Plastic_4		155108
+	1005715559	Vacuum Cleaner	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\Staubsauger_lower_partial_Operator_BC6BA7A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Vacuum Cleaner		1722500
+	1013258737	drag_table_5	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\drag_table_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Drag_Furniture_test\Drag_Table_test\drag_table_5		1363288
+	1024600922	Slurp_2	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\Slurp_2_A0E1C740.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Slurp\Slurp_2		354764
+	1034130583	elements-water-splash-15	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\elements-water-splash-15_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mop Puddle\elements-water-splash-15		301884
+	1038408790	drag_wooden_fragment_4	C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Windows\SFX\drag_wooden_fragment_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\In-game object sounds\Drag_Furniture_test\Drag_Heavy_1_test\drag_wooden_fragment_4		363164
+

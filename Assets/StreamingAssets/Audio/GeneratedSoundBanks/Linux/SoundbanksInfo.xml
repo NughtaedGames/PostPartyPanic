@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Linux" BasePlatform="Linux" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\.cache\Linux\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\GeneratedSoundBanks\Linux\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\luios\Perforce\stluiosi_WellBeHomeIn5\We'll be back in 5\We'll be back in 5_WwiseProject\GeneratedSoundBanks\Linux</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1290280387">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="4179668880" Name="master_volume" ObjectPath="\Game Parameters\Default Work Unit\master_volume"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="1349172122">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="168097872" Name="Broom" ObjectPath="\Events\Default Work Unit\In-Game\Broom" DurationType="OneShot" DurationMin="0.388458" DurationMax="0.650479">
+					<IncludedMemoryFiles>
+						<File Id="159381326" Language="SFX">
+							<ShortName>brooming_3.wav</ShortName>
+							<Path>SFX\brooming_3_10C4C929.wem</Path>
+						</File>
+						<File Id="233028051" Language="SFX">
+							<ShortName>brooming_2.wav</ShortName>
+							<Path>SFX\brooming_2_10C4C929.wem</Path>
+						</File>
+						<File Id="631337213" Language="SFX">
+							<ShortName>brooming_4.wav</ShortName>
+							<Path>SFX\brooming_4_10C4C929.wem</Path>
+						</File>
+						<File Id="645100905" Language="SFX">
+							<ShortName>brooming_7.wav</ShortName>
+							<Path>SFX\brooming_7_10C4C929.wem</Path>
+						</File>
+						<File Id="677907540" Language="SFX">
+							<ShortName>brooming_6.wav</ShortName>
+							<Path>SFX\brooming_6_10C4C929.wem</Path>
+						</File>
+						<File Id="761544729" Language="SFX">
+							<ShortName>brooming_5.wav</ShortName>
+							<Path>SFX\brooming_5_10C4C929.wem</Path>
+						</File>
+						<File Id="864862173" Language="SFX">
+							<ShortName>brooming_1.wav</ShortName>
+							<Path>SFX\brooming_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1701177942" Name="Button_Hover" ObjectPath="\Events\Default Work Unit\Menu\Button\Button_Hover" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1584507803" Name="Click" ObjectPath="\Events\Default Work Unit\Menu\Button\Click" DurationType="OneShot" DurationMin="0.261083" DurationMax="0.367695">
+					<IncludedMemoryFiles>
+						<File Id="419418610" Language="SFX">
+							<ShortName>click_soft_3.wav</ShortName>
+							<Path>SFX\click_soft_3_561A8E55.wem</Path>
+						</File>
+						<File Id="611409690" Language="SFX">
+							<ShortName>click_soft_1.wav</ShortName>
+							<Path>SFX\click_soft_1_547B986E.wem</Path>
+						</File>
+						<File Id="780519984" Language="SFX">
+							<ShortName>click_soft_2.wav</ShortName>
+							<Path>SFX\click_soft_2_D380B249.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3384067508" Name="Closet_Door" ObjectPath="\Events\Default Work Unit\In-Game\Closet_Door" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1758959820" Name="Collect_Star" ObjectPath="\Events\Default Work Unit\In-Game\Collect_Star" DurationType="OneShot" DurationMin="1.156708" DurationMax="1.191959">
+					<IncludedMemoryFiles>
+						<File Id="459281821" Language="SFX">
+							<ShortName>ui-classic-feedback-positive-03.wav</ShortName>
+							<Path>SFX\ui-classic-feedback-positive-03_E7BF0893.wem</Path>
+						</File>
+						<File Id="904390829" Language="SFX">
+							<ShortName>ui-classic-feedback-positive-01.wav</ShortName>
+							<Path>SFX\ui-classic-feedback-positive-01_2E43D7E6.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1505888634" Name="Countdown" ObjectPath="\Events\Default Work Unit\In-Game\Countdown" DurationType="OneShot" DurationMin="1.277979" DurationMax="1.277979">
+					<IncludedMemoryFiles>
+						<File Id="712234251" Language="SFX">
+							<ShortName>ui-notification-signal-08.wav</ShortName>
+							<Path>SFX\ui-notification-signal-08_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2488400822" Name="Dog_Bark" ObjectPath="\Events\Default Work Unit\In-Game\Dog_Bark" DurationType="OneShot" DurationMin="1.202979" DurationMax="1.329000">
+					<IncludedMemoryFiles>
+						<File Id="89837021" Language="SFX">
+							<ShortName>animal-dog-bark-normal-single-06.wav</ShortName>
+							<Path>SFX\animal-dog-bark-normal-single-06_10C4C929.wem</Path>
+						</File>
+						<File Id="382192752" Language="SFX">
+							<ShortName>animal-dog-bark-normal-single-05.wav</ShortName>
+							<Path>SFX\animal-dog-bark-normal-single-05_10C4C929.wem</Path>
+						</File>
+						<File Id="584359995" Language="SFX">
+							<ShortName>animal-dog-bark-normal-single-04.wav</ShortName>
+							<Path>SFX\animal-dog-bark-normal-single-04_10C4C929.wem</Path>
+						</File>
+						<File Id="642265953" Language="SFX">
+							<ShortName>animal-dog-bark-normal-single-02.wav</ShortName>
+							<Path>SFX\animal-dog-bark-normal-single-02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2678880713" Name="Fire" ObjectPath="\Events\Default Work Unit\In-Game\Fire\Fire" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="935957131" Language="SFX">
+							<ShortName>object-fire-campfire-large-loop-01.wav</ShortName>
+							<Path>SFX\object-fire-campfire-large-loop-01_0D1FF5D0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1575098635" Name="Fire_Alarm" ObjectPath="\Events\Default Work Unit\In-Game\Fire Alarm\Fire_Alarm" DurationType="OneShot" DurationMin="8.774980" DurationMax="8.774980">
+					<IncludedMemoryFiles>
+						<File Id="932711720" Language="SFX">
+							<ShortName>sci-fi-alarm-fast-spaceship-siren-sequence-01.wav</ShortName>
+							<Path>SFX\sci-fi-alarm-fast-spaceship-siren-sequence-01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3462152561" Name="Fire_Extinguisher" ObjectPath="\Events\Default Work Unit\In-Game\Fire Extinguisher\Fire_Extinguisher" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="154543719" Language="SFX">
+							<ShortName>fire-extinguisher-powder-Start-01.wav</ShortName>
+							<Path>SFX\fire-extinguisher-powder-Start-01_94FB70D0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1894362767" Name="Foot_Player" ObjectPath="\Events\Default Work Unit\In-Game\Foot_Player" DurationType="OneShot" DurationMin="0.149333" DurationMax="0.308312">
+					<IncludedMemoryFiles>
+						<File Id="213756166" Language="SFX">
+							<ShortName>walk_on_grass_3.wav</ShortName>
+							<Path>SFX\walk_on_grass_3_DA03974D.wem</Path>
+						</File>
+						<File Id="229968556" Language="SFX">
+							<ShortName>walk_on_carpet_2.wav</ShortName>
+							<Path>SFX\walk_on_carpet_2_62D6EABC.wem</Path>
+						</File>
+						<File Id="272671105" Language="SFX">
+							<ShortName>walk_on_carpet_3.wav</ShortName>
+							<Path>SFX\walk_on_carpet_3_9401167F.wem</Path>
+						</File>
+						<File Id="285497544" Language="SFX">
+							<ShortName>walk_on_floor_3.wav</ShortName>
+							<Path>SFX\walk_on_floor_3_FE08EFF5.wem</Path>
+						</File>
+						<File Id="393096366" Language="SFX">
+							<ShortName>walk_on_grass_2.wav</ShortName>
+							<Path>SFX\walk_on_grass_2_ED46C9C1.wem</Path>
+						</File>
+						<File Id="504820483" Language="SFX">
+							<ShortName>walk_on_floor_1.wav</ShortName>
+							<Path>SFX\walk_on_floor_1_115901E3.wem</Path>
+						</File>
+						<File Id="580824712" Language="SFX">
+							<ShortName>walk_on_grass_1.wav</ShortName>
+							<Path>SFX\walk_on_grass_1_73D564A8.wem</Path>
+						</File>
+						<File Id="613006070" Language="SFX">
+							<ShortName>walk_on_carpet_1.wav</ShortName>
+							<Path>SFX\walk_on_carpet_1_7E2F76C2.wem</Path>
+						</File>
+						<File Id="613142307" Language="SFX">
+							<ShortName>walk_on_floor_2.wav</ShortName>
+							<Path>SFX\walk_on_floor_2_B19ED90E.wem</Path>
+						</File>
+						<File Id="847788363" Language="SFX">
+							<ShortName>walk_on_floor_4.wav</ShortName>
+							<Path>SFX\walk_on_floor_4_55F10A8A.wem</Path>
+						</File>
+						<File Id="935406071" Language="SFX">
+							<ShortName>walk_on_grass_4.wav</ShortName>
+							<Path>SFX\walk_on_grass_4_2510F06F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{02FBE23E-E626-4D5B-9F24-637AE37CAEE6}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{02FBE23E-E626-4D5B-9F24-637AE37CAEE6}">
+							<Media>
+								<File Id="285497544"/>
+								<File Id="504820483"/>
+								<File Id="613142307"/>
+								<File Id="847788363"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C24BC6B7-097A-469E-8308-DB954DE96DBD}">
+							<Media>
+								<File Id="213756166"/>
+								<File Id="393096366"/>
+								<File Id="580824712"/>
+								<File Id="935406071"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D9F51EDE-CCC7-4A41-AB9F-D9D252BCF44F}">
+							<Media>
+								<File Id="229968556"/>
+								<File Id="272671105"/>
+								<File Id="613006070"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1533192012" Name="GameMusic" ObjectPath="\Events\Default Work Unit\In-Game\Music\GameMusic" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="989506216" Language="SFX">
+							<ShortName>FastSwing_10_02.wav</ShortName>
+							<Path>SFX\FastSwing_10_02_CE6C06D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4072963231" Name="Glass_Break" ObjectPath="\Events\Default Work Unit\In-Game\Glass_Break" DurationType="OneShot" DurationMin="1.880979" DurationMax="1.971000">
+					<IncludedMemoryFiles>
+						<File Id="5103491" Language="SFX">
+							<ShortName>destruction-glass-smash-02.wav</ShortName>
+							<Path>SFX\destruction-glass-smash-02_10C4C929.wem</Path>
+						</File>
+						<File Id="210350483" Language="SFX">
+							<ShortName>destruction-glass-smash-05.wav</ShortName>
+							<Path>SFX\destruction-glass-smash-05_10C4C929.wem</Path>
+						</File>
+						<File Id="211650428" Language="SFX">
+							<ShortName>destruction-glass-smash-01.wav</ShortName>
+							<Path>SFX\destruction-glass-smash-01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="679636833" Name="MenuMusic" ObjectPath="\Events\Default Work Unit\Menu\Music\MenuMusic" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="985620516" Language="SFX">
+							<ShortName>Techno1_10_02.wav</ShortName>
+							<Path>SFX\Techno1_10_02_31594B12.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4180377010" Name="Mop_Puddle" ObjectPath="\Events\Default Work Unit\In-Game\Mop_Puddle" DurationType="OneShot" DurationMin="1.571979" DurationMax="2.229000">
+					<IncludedMemoryFiles>
+						<File Id="349235836" Language="SFX">
+							<ShortName>elements-water-splash-16.wav</ShortName>
+							<Path>SFX\elements-water-splash-16_10C4C929.wem</Path>
+						</File>
+						<File Id="392270304" Language="SFX">
+							<ShortName>elements-water-splash-14.wav</ShortName>
+							<Path>SFX\elements-water-splash-14_10C4C929.wem</Path>
+						</File>
+						<File Id="1034130583" Language="SFX">
+							<ShortName>elements-water-splash-15.wav</ShortName>
+							<Path>SFX\elements-water-splash-15_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2735935537" Name="Pause_Music" ObjectPath="\Events\Default Work Unit\In-Game\Pause &amp; Resume\Pause_Music" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1822024683" Name="Player_Drag" ObjectPath="\Events\Default Work Unit\In-Game\Drag\Player_Drag" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="151931572" Language="SFX">
+							<ShortName>drag_table_2.wav</ShortName>
+							<Path>SFX\drag_table_2_10C4C929.wem</Path>
+						</File>
+						<File Id="400212307" Language="SFX">
+							<ShortName>drag_wooden_fragment_5.wav</ShortName>
+							<Path>SFX\drag_wooden_fragment_5_10C4C929.wem</Path>
+						</File>
+						<File Id="440195846" Language="SFX">
+							<ShortName>drag_table_3.wav</ShortName>
+							<Path>SFX\drag_table_3_10C4C929.wem</Path>
+						</File>
+						<File Id="589638413" Language="SFX">
+							<ShortName>drag_table_1.wav</ShortName>
+							<Path>SFX\drag_table_1_10C4C929.wem</Path>
+						</File>
+						<File Id="591565670" Language="SFX">
+							<ShortName>drag_wooden_fragment_3.wav</ShortName>
+							<Path>SFX\drag_wooden_fragment_3_10C4C929.wem</Path>
+						</File>
+						<File Id="871591121" Language="SFX">
+							<ShortName>drag_wooden_fragment_6.wav</ShortName>
+							<Path>SFX\drag_wooden_fragment_6_10C4C929.wem</Path>
+						</File>
+						<File Id="947367467" Language="SFX">
+							<ShortName>drag_table_4.wav</ShortName>
+							<Path>SFX\drag_table_4_10C4C929.wem</Path>
+						</File>
+						<File Id="950411297" Language="SFX">
+							<ShortName>drag_wooden_fragment_2.wav</ShortName>
+							<Path>SFX\drag_wooden_fragment_2_AF213E36.wem</Path>
+						</File>
+						<File Id="1013258737" Language="SFX">
+							<ShortName>drag_table_5.wav</ShortName>
+							<Path>SFX\drag_table_5_10C4C929.wem</Path>
+						</File>
+						<File Id="1038408790" Language="SFX">
+							<ShortName>drag_wooden_fragment_4.wav</ShortName>
+							<Path>SFX\drag_wooden_fragment_4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{3076EE79-A588-4B41-8CD1-724F16B80BF4}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{3076EE79-A588-4B41-8CD1-724F16B80BF4}">
+							<Media>
+								<File Id="400212307"/>
+								<File Id="591565670"/>
+								<File Id="871591121"/>
+								<File Id="950411297"/>
+								<File Id="1038408790"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E80E2E86-04F1-428D-913F-F9479F3C1962}">
+							<Media>
+								<File Id="151931572"/>
+								<File Id="440195846"/>
+								<File Id="589638413"/>
+								<File Id="947367467"/>
+								<File Id="1013258737"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="914007563" Name="Punsh" ObjectPath="\Events\Default Work Unit\In-Game\Punsh" DurationType="OneShot" DurationMin="0.487900" DurationMax="0.920062">
+					<IncludedMemoryFiles>
+						<File Id="588406768" Language="SFX">
+							<ShortName>Swishes\swish_less_energetic.wav</ShortName>
+							<Path>SFX\Swishes\swish_less_energetic_E476F5F8.wem</Path>
+						</File>
+						<File Id="715039286" Language="SFX">
+							<ShortName>Swishes\swish_energetic.wav</ShortName>
+							<Path>SFX\Swishes\swish_energetic_D076BE60.wem</Path>
+						</File>
+						<File Id="834552933" Language="SFX">
+							<ShortName>Swishes\swish_very_energetic.wav</ShortName>
+							<Path>SFX\Swishes\swish_very_energetic_8A7EE2B2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1565052233" Name="Resume_Game" ObjectPath="\Events\Default Work Unit\In-Game\Pause &amp; Resume\Resume_Game" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2417181057" Name="Scribble" ObjectPath="\Events\Default Work Unit\Menu\Scribble" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3987862127" Name="Slurp" ObjectPath="\Events\Default Work Unit\In-Game\Slurp" DurationType="OneShot" DurationMin="1.484480" DurationMax="2.279332">
+					<IncludedMemoryFiles>
+						<File Id="742948325" Language="SFX">
+							<ShortName>Slurp_1.wav</ShortName>
+							<Path>SFX\Slurp_1_03BBDAD9.wem</Path>
+						</File>
+						<File Id="891866665" Language="SFX">
+							<ShortName>Slurp_3.wav</ShortName>
+							<Path>SFX\Slurp_3_ACFEA3F5.wem</Path>
+						</File>
+						<File Id="1024600922" Language="SFX">
+							<ShortName>Slurp_2.wav</ShortName>
+							<Path>SFX\Slurp_2_A0E1C740.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="160038168" Name="Splash" ObjectPath="\Events\Default Work Unit\In-Game\Splash" DurationType="OneShot" DurationMin="1.928979" DurationMax="2.627979">
+					<IncludedMemoryFiles>
+						<File Id="188602473" Language="SFX">
+							<ShortName>elements-water-splash-small-01.wav</ShortName>
+							<Path>SFX\elements-water-splash-small-01_10C4C929.wem</Path>
+						</File>
+						<File Id="511462851" Language="SFX">
+							<ShortName>elements-water-splash-small-03.wav</ShortName>
+							<Path>SFX\elements-water-splash-small-03_10C4C929.wem</Path>
+						</File>
+						<File Id="867360010" Language="SFX">
+							<ShortName>elements-water-splash-deep-02.wav</ShortName>
+							<Path>SFX\elements-water-splash-deep-02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2526624148" Name="Stop_Fire" ObjectPath="\Events\Default Work Unit\In-Game\Fire\Stop_Fire" DurationType="OneShot" DurationMin="6.878979" DurationMax="6.878979">
+					<IncludedMemoryFiles>
+						<File Id="253196360" Language="SFX">
+							<ShortName>object-fire-campfire-large-extinguish-01.wav</ShortName>
+							<Path>SFX\object-fire-campfire-large-extinguish-01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4052948690" Name="Stop_Fire_Alarm" ObjectPath="\Events\Default Work Unit\In-Game\Fire Alarm\Stop_Fire_Alarm" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="609746822" Name="Stop_Fire_Extinguisher" ObjectPath="\Events\Default Work Unit\In-Game\Fire Extinguisher\Stop_Fire_Extinguisher" DurationType="OneShot" DurationMin="0.997718" DurationMax="0.997718">
+					<IncludedMemoryFiles>
+						<File Id="78873818" Language="SFX">
+							<ShortName>fire-extinguisher-powder-Sustain-03.wav</ShortName>
+							<Path>SFX\fire-extinguisher-powder-Sustain-03_6A532BCE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="988161635" Name="Stop_GameMusic" ObjectPath="\Events\Default Work Unit\In-Game\Music\Stop_GameMusic" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3148412736" Name="Stop_Player_Drag" ObjectPath="\Events\Default Work Unit\In-Game\Drag\Stop_Player_Drag" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="372965773" Name="Stop_UFO_Hovering" ObjectPath="\Events\Default Work Unit\In-Game\Ufo Hovering\Stop_UFO_Hovering" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2685132018" Name="Stop_Vacuum_Cleaner" ObjectPath="\Events\Default Work Unit\In-Game\Vacuum Cleaner\Stop_Vacuum_Cleaner" DurationType="OneShot" DurationMin="2.900508" DurationMax="2.900508">
+					<IncludedMemoryFiles>
+						<File Id="934714524" Language="SFX">
+							<ShortName>Staubsauger_lower_partial_Operator.wav</ShortName>
+							<Path>SFX\Staubsauger_lower_partial_Operator_B575333F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1973898857" Name="StopMenuMusic" ObjectPath="\Events\Default Work Unit\Menu\Music\StopMenuMusic" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4088074013" Name="Take_Photo" ObjectPath="\Events\Default Work Unit\In-Game\Take_Photo" DurationType="OneShot" DurationMin="1.008000" DurationMax="1.077000">
+					<IncludedMemoryFiles>
+						<File Id="454015813" Language="SFX">
+							<ShortName>ui-classic-camera-06.wav</ShortName>
+							<Path>SFX\ui-classic-camera-06_10C4C929.wem</Path>
+						</File>
+						<File Id="473985854" Language="SFX">
+							<ShortName>ui-classic-camera-05.wav</ShortName>
+							<Path>SFX\ui-classic-camera-05_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1080872017" Name="Tok" ObjectPath="\Events\Default Work Unit\In-Game\Tok" DurationType="OneShot" DurationMin="0.304208" DurationMax="0.332124">
+					<IncludedMemoryFiles>
+						<File Id="871242418" Language="SFX">
+							<ShortName>Tok\tok.wav</ShortName>
+							<Path>SFX\Tok\tok_49EBA6F2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3848275657" Name="Trash" ObjectPath="\Events\Default Work Unit\In-Game\Trash" DurationType="OneShot" DurationMin="0.663854" DurationMax="0.962917">
+					<IncludedMemoryFiles>
+						<File Id="12400012" Language="SFX">
+							<ShortName>Crunch_Rubish_Thick_Plastic_1.wav</ShortName>
+							<Path>SFX\Crunch_Rubish_Thick_Plastic_1_10C4C929.wem</Path>
+						</File>
+						<File Id="135084144" Language="SFX">
+							<ShortName>Crunch_Rubish_Thin_Plastic_1.wav</ShortName>
+							<Path>SFX\Crunch_Rubish_Thin_Plastic_1_10C4C929.wem</Path>
+						</File>
+						<File Id="502971768" Language="SFX">
+							<ShortName>Crunch_Rubish_Thick_Plastic_4.wav</ShortName>
+							<Path>SFX\Crunch_Rubish_Thick_Plastic_4_10C4C929.wem</Path>
+						</File>
+						<File Id="572987280" Language="SFX">
+							<ShortName>Crunch_Rubish_Thick_Plastic_2.wav</ShortName>
+							<Path>SFX\Crunch_Rubish_Thick_Plastic_2_10C4C929.wem</Path>
+						</File>
+						<File Id="646157458" Language="SFX">
+							<ShortName>Crunch_Rubish_Thin_Plastic_3.wav</ShortName>
+							<Path>SFX\Crunch_Rubish_Thin_Plastic_3_10C4C929.wem</Path>
+						</File>
+						<File Id="654490406" Language="SFX">
+							<ShortName>Crunch_Rubish_Thick_Plastic_3.wav</ShortName>
+							<Path>SFX\Crunch_Rubish_Thick_Plastic_3_10C4C929.wem</Path>
+						</File>
+						<File Id="720305034" Language="SFX">
+							<ShortName>Crunch_Rubish_Thin_Plastic_2.wav</ShortName>
+							<Path>SFX\Crunch_Rubish_Thin_Plastic_2_10C4C929.wem</Path>
+						</File>
+						<File Id="1002581526" Language="SFX">
+							<ShortName>Crunch_Rubish_Thin_Plastic_4.wav</ShortName>
+							<Path>SFX\Crunch_Rubish_Thin_Plastic_4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="342225720" Name="UFO_Hovering" ObjectPath="\Events\Default Work Unit\In-Game\Ufo Hovering\UFO_Hovering" DurationType="OneShot" DurationMin="89.615997" DurationMax="89.615997">
+					<IncludedMemoryFiles>
+						<File Id="207560612" Language="SFX">
+							<ShortName>abstract-synthetic-drone-alien-factory-loop-01.wav</ShortName>
+							<Path>SFX\abstract-synthetic-drone-alien-factory-loop-01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1470160343" Name="Unclog" ObjectPath="\Events\Default Work Unit\In-Game\Unclog" DurationType="OneShot" DurationMin="4.000000" DurationMax="4.000000">
+					<IncludedMemoryFiles>
+						<File Id="129969736" Language="SFX">
+							<ShortName>Unclog_with_dynamedion_splashes.wav</ShortName>
+							<Path>SFX\Unclog_with_dynamedion_splashes_95B01656.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="558346695" Name="Vacuum_Cleaner" ObjectPath="\Events\Default Work Unit\In-Game\Vacuum Cleaner\Vacuum_Cleaner" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1005715559" Language="SFX">
+							<ShortName>Staubsauger_lower_partial_Operator.wav</ShortName>
+							<Path>SFX\Staubsauger_lower_partial_Operator_BC6BA7A4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3556152674" Name="Wiggle" ObjectPath="\Events\Default Work Unit\In-Game\Wiggle" DurationType="OneShot" DurationMin="1.755307" DurationMax="2.414137">
+					<IncludedMemoryFiles>
+						<File Id="463662465" Language="SFX">
+							<ShortName>Wet_Wiggle_3.wav</ShortName>
+							<Path>SFX\Wet_Wiggle_3_4E8ADFC9.wem</Path>
+						</File>
+						<File Id="783577525" Language="SFX">
+							<ShortName>Wet_Wiggle_2.wav</ShortName>
+							<Path>SFX\Wet_Wiggle_2_E50ED2E9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="2096958805" Name="Held_Object_Type" ObjectPath="\Switches\Default Work Unit\Held_Object_Type" GUID="{50622346-8D3C-4320-8DBF-C9DAEAB457FA}">
+					<Switches>
+						<Switch Id="704816406" Name="Heavy_1" ObjectPath="\Switches\Default Work Unit\Held_Object_Type\Heavy_1" GUID="{3076EE79-A588-4B41-8CD1-724F16B80BF4}"/>
+						<Switch Id="2048817515" Name="Table" ObjectPath="\Switches\Default Work Unit\Held_Object_Type\Table" GUID="{E80E2E86-04F1-428D-913F-F9479F3C1962}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{D7422963-8944-4B0C-9AF9-C2DBF9CDC2A2}">
+					<Switches>
+						<Switch Id="1088209313" Name="Floor" ObjectPath="\Switches\Default Work Unit\Material\Floor" GUID="{02FBE23E-E626-4D5B-9F24-637AE37CAEE6}"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Material\Grass" GUID="{C24BC6B7-097A-469E-8308-DB954DE96DBD}"/>
+						<Switch Id="2412606308" Name="Carpet" ObjectPath="\Switches\Default Work Unit\Material\Carpet" GUID="{D9F51EDE-CCC7-4A41-AB9F-D9D252BCF44F}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
